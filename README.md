@@ -20,10 +20,10 @@ This portfolio website is designed to provide an overview of my academic and pro
 - Contact Form: Allows visitors to get in touch with me directly through the website.
 
 ## Technologies Used
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
-- Bootstrap
+- Bootstrap Icons
 - Formspree (for contact form handling)
 
 ## Setup and Installation

@@ -1,105 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Nahom Kidane - Projects</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Custom Google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Selected projects by Nahom Kidane, including AI based interfaces and real time computer vision work." />
+  <meta name="theme-color" content="#0c0800" />
+  <title>Nahom Kidane | Projects</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body class="d-flex flex-column h-100 bg-light">
-    <main class="flex-shrink-0">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Nahom Kidane</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+<body class="page-projects">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="page-shell">
+    <header class="site-nav">
+      <div class="nav-inner">
+        <a class="brand magnetic" href="index.html" aria-label="Nahom Kidane home">
+          <span class="brand-mark">NK</span>
+          <span class="brand-copy">Nahom Kidane</span>
+        </a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+        </button>
+        <nav class="nav-menu" data-nav-menu aria-label="Primary">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="resume.html">Resume</a>
+          <a class="nav-link is-active" href="projects.html" aria-current="page">Projects</a>
+          <a class="nav-link nav-link--cta magnetic" href="contact.html">Let's talk</a>
         </nav>
-        <!-- Projects Section-->
-        <section class="py-5">
-            <div class="container px-5 mb-5">
-                <div class="text-center mb-5">
-                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-11 col-xl-9 col-xxl-8">
-                        <!-- Project Card 1-->
-                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                            <div class="card-body p-0">
-                                <div class="d-flex align-items-center">
-                                    <div class="p-5">
-                                        <h2 class="fw-bolder">Project Alchemy</h2>
-                                        <p>Developed an AI-driven solution leveraging Microsoft Azure’s cognitive services. Implemented interactive features in React that interfaced with Azure AI to enhance user decision-making.</p>
-                                        <a href="https://alchemi.netlify.app/">Project Link</a>
-                                    </div>
-                                    <img class="img-fluid" src="assets/secondhack.jpeg" alt="Project Alchemy" />
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project Card 2-->
-                        <div class="card overflow-hidden shadow rounded-4 border-0">
-                            <div class="card-body p-0">
-                                <div class="d-flex align-items-center">
-                                    <div class="p-5">
-                                        <h2 class="fw-bolder">Live Face Recognition</h2>
-                                        <p>Developed a real-time face recognition system using OpenCV and deep learning techniques. Integrated the system with a web interface using Flask for real-time monitoring and alerts.</p>
-                                        <a href="https://github.com/NK2121/Live-Face-Recognition">Project Link</a>
-                                    </div>
-                                    <img class="img-fluid" src="assets/facereco.jpeg" alt="Live Face Recognition" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Call to action section-->
-        <section class="py-5 bg-gradient-primary-to-secondary text-white">
-            <div class="container px-5 my-5">
-                <div class="text-center">
-                    <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!-- Footer-->
-    <footer class="bg-white py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto"><div class="small m-0">&copy; Nahom Kidane 2023</div></div>
-                <div class="col-auto">
-                    <a class="small" href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="contact.html">Contact</a>
-                </div>
-            </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section hero">
+        <div class="container">
+          <div class="section-head section-head--wide reveal">
+            <p class="eyebrow">Projects</p>
+            <h1 class="hero-title hero-title--compact-10">Selected work with a product lens.</h1>
+            <p class="section-copy">These projects were built to solve real problems and communicate the result clearly. The intent was always the same: make the software feel credible, useful, and complete.</p>
+          </div>
+          <div class="button-row reveal">
+            <a class="button magnetic" href="contact.html">Discuss a role <i class="bi bi-arrow-right"></i></a>
+            <a class="button button--ghost magnetic" href="resume.html">See resume</a>
+          </div>
         </div>
+      </section>
+
+      <section class="section section--tight">
+        <div class="container">
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <img src="assets/secondhack.jpeg" alt="Alchemi educational platform interface" />
+              </div>
+              <div class="project-card__content">
+                <p class="project-tag">Case study 01</p>
+                <h3>Alchemi</h3>
+                <p>Built an educational content platform during a Microsoft Hackathon. I developed a serverless ETL pipeline that extracts and structures learning objectives from multi hundred page syllabi for personalized AI tutoring.</p>
+                <div class="project-metrics">
+                  <div>
+                    <strong>Stack</strong>
+                    MongoDB, Next.js, Azure
+                  </div>
+                  <div>
+                    <strong>Outcome</strong>
+                    Personalized AI tutoring at scale
+                  </div>
+                </div>
+                <div class="chip-row">
+                  <span class="chip">Next.js</span>
+                  <span class="chip">Azure</span>
+                  <span class="chip">MongoDB</span>
+                  <span class="chip">ETL pipeline</span>
+                </div>
+                <div class="project-card__footer">
+                  <a class="link-inline" href="https://alchemi.netlify.app/" target="_blank" rel="noreferrer">Live site <i class="bi bi-arrow-up-right"></i></a>
+                  <a class="link-inline" href="https://github.com/NK2121" target="_blank" rel="noreferrer">GitHub <i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-card--reverse reveal">
+              <div class="project-card__media">
+                <img src="assets/facereco.jpeg" alt="Live face recognition interface with real time computer vision feedback" />
+              </div>
+              <div class="project-card__content">
+                <p class="project-tag">Case study 02</p>
+                <h3>Live Face Recognition</h3>
+                <p>Built a real time face recognition system using OpenCV and deep learning, with a Flask interface for live monitoring and alerts. The focus was dependable feedback loops and low friction operation.</p>
+                <div class="project-metrics">
+                  <div>
+                    <strong>Stack</strong>
+                    OpenCV, Flask, deep learning
+                  </div>
+                  <div>
+                    <strong>Outcome</strong>
+                    Practical monitoring tool with live alerts
+                  </div>
+                </div>
+                <div class="chip-row">
+                  <span class="chip">OpenCV</span>
+                  <span class="chip">Flask</span>
+                  <span class="chip">Deep learning</span>
+                  <span class="chip">Computer vision</span>
+                </div>
+                <div class="project-card__footer">
+                  <a class="link-inline" href="https://github.com/NK2121/Live-Face-Recognition" target="_blank" rel="noreferrer">GitHub repo <i class="bi bi-arrow-up-right"></i></a>
+                  <a class="link-inline" href="contact.html">Ask about the implementation <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media project-card__media--icon project-card__media--health">
+                <i class="bi bi-heart-pulse project-icon" aria-hidden="true"></i>
+              </div>
+              <div class="project-card__content">
+                <p class="project-tag">Case study 03</p>
+                <h3>HearForYou</h3>
+                <p>Developed an AI peer support mental health app. The system stores conversations in Firestore and uses TensorFlow plus Gemini API integration to deliver empathetic, context aware responses.</p>
+                <div class="project-metrics">
+                  <div>
+                    <strong>Stack</strong>
+                    Flask, TensorFlow, Gemini API
+                  </div>
+                  <div>
+                    <strong>Recognition</strong>
+                    Finalist at Big Ideas Minnesota
+                  </div>
+                </div>
+                <div class="chip-row">
+                  <span class="chip">Flask</span>
+                  <span class="chip">TensorFlow</span>
+                  <span class="chip">Gemini API</span>
+                  <span class="chip">Firestore</span>
+                </div>
+                <div class="project-card__footer">
+                  <a class="link-inline" href="https://github.com/NK2121" target="_blank" rel="noreferrer">GitHub <i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-card--reverse reveal">
+              <div class="project-card__media project-card__media--icon project-card__media--safehr">
+                <i class="bi bi-clipboard2-pulse project-icon" aria-hidden="true"></i>
+              </div>
+              <div class="project-card__content">
+                <p class="project-tag">Case study 04</p>
+                <h3>SAFEHR</h3>
+                <p>Led database migration in a 4 member team to modernize SAFEHR from a legacy PHP iPad only app into a cross platform simulation platform with integrated reporting for student outcomes and learning metrics.</p>
+                <div class="project-metrics">
+                  <div>
+                    <strong>Stack</strong>
+                    React, Django, MySQL
+                  </div>
+                  <div>
+                    <strong>Outcome</strong>
+                    Cross-platform family nursing simulation
+                  </div>
+                </div>
+                <div class="chip-row">
+                  <span class="chip">React</span>
+                  <span class="chip">Django</span>
+                  <span class="chip">MySQL</span>
+                  <span class="chip">Database migration</span>
+                </div>
+                <div class="project-card__footer">
+                  <a class="link-inline" href="contact.html">Ask about this project <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">How I build</p>
+            <h2>I try to make the engineering visible without making the design noisy.</h2>
+          </div>
+          <div class="stat-grid">
+            <article class="stat-card reveal">
+              <span class="stat-label">Clarity</span>
+              <span class="stat-value">1 story</span>
+              <p class="stat-copy">Each project page should tell a recruiter what was built, why it mattered, and what stack made it possible.</p>
+            </article>
+            <article class="stat-card reveal">
+              <span class="stat-label">Craft</span>
+              <span class="stat-value">Small details</span>
+              <p class="stat-copy">I prefer spacing, hierarchy, and interaction polish that make the work feel deliberate rather than generic.</p>
+            </article>
+            <article class="stat-card reveal">
+              <span class="stat-label">Utility</span>
+              <span class="stat-value">Real use</span>
+              <p class="stat-copy">The goal is software that solves a problem clearly enough to be understood in one scan.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tight">
+        <div class="container">
+          <div class="cta-panel reveal">
+            <div>
+              <p class="eyebrow">Open for work</p>
+              <h2>If the work needs a thoughtful front end engineer, I am ready to talk.</h2>
+            </div>
+            <a class="button magnetic" href="contact.html">Contact me <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-shell">
+        <p class="footer-copy">&copy; <span data-current-year>2026</span> Nahom Kidane. Projects presented with a focus on outcome and implementation.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
     </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+  </div>
+
+  <script src="js/scripts.js"></script>
 </body>
 </html>

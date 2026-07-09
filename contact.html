@@ -1,104 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content />
-    <meta name="author" content />
-    <title>Nahom Kidane - Contact</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Custom Google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Nahom Kidane for internships, collaborations, or engineering conversations." />
+  <meta name="theme-color" content="#0c0800" />
+  <title>Nahom Kidane | Contact</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body class="d-flex flex-column">
-    <main class="flex-shrink-0">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Nahom Kidane</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+<body class="page-contact">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="page-shell">
+    <header class="site-nav">
+      <div class="nav-inner">
+        <a class="brand magnetic" href="index.html" aria-label="Nahom Kidane home">
+          <span class="brand-mark">NK</span>
+          <span class="brand-copy">Nahom Kidane</span>
+        </a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+        </button>
+        <nav class="nav-menu" data-nav-menu aria-label="Primary">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="resume.html">Resume</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link is-active" href="contact.html" aria-current="page">Contact</a>
         </nav>
-        <!-- Page content-->
-        <section class="py-5">
-            <div class="container px-5">
-                <!-- Contact form-->
-                <div class="bg-light rounded-4 py-5 px-4 px-md-5">
-                    <div class="text-center mb-5">
-                        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                        <h1 class="fw-bolder">Get in touch</h1>
-                        <p class="lead fw-normal text-muted mb-0">Let's work together!</p>
-                    </div>
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-8 col-xl-6">
-                            <!-- Contact Form using Formspree-->
-                            <form id="contactForm" action="https://formspree.io/f/myzgeyzj" method="POST">
-                                <!-- Name input-->
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
-                                    <label for="name">Full name</label>
-                                    <div class="invalid-feedback">A name is required.</div>
-                                </div>
-                                <!-- Email address input-->
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required />
-                                    <label for="email">Email address</label>
-                                    <div class="invalid-feedback">An email is required.</div>
-                                </div>
-                                <!-- Phone number input-->
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="phone" name="phone" type="tel" placeholder="(123) 456-7890" required />
-                                    <label for="phone">Phone number</label>
-                                    <div class="invalid-feedback">A phone number is required.</div>
-                                </div>
-                                <!-- Message input-->
-                                <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
-                                    <label for="message">Message</label>
-                                    <div class="invalid-feedback">A message is required.</div>
-                                </div>
-                                <!-- Submit Button-->
-                                <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!-- Footer-->
-    <footer class="bg-white py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto"><div class="small m-0">&copy; Nahom Kidane 2023</div></div>
-                <div class="col-auto">
-                    <a class="small" href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="contact.html">Contact</a>
-                </div>
-            </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section hero">
+        <div class="container">
+          <div class="section-head section-head--wide reveal">
+            <p class="eyebrow">Contact</p>
+            <h1 class="hero-title hero-title--compact-11">Let's build something thoughtful.</h1>
+            <p class="section-copy">I’m open to internships, engineering roles, collaborations, and conversations about product craft, front end systems, and AI based experiences.</p>
+          </div>
+          <div class="contact-links reveal">
+            <a class="meta-pill" href="mailto:nahom.kidane@mnsu.edu"><i class="bi bi-envelope"></i> nahom.kidane@mnsu.edu</a>
+            <a class="meta-pill" href="https://www.linkedin.com/in/nahom-kidane" target="_blank" rel="noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a class="meta-pill" href="https://github.com/NK2121" target="_blank" rel="noreferrer"><i class="bi bi-github"></i> GitHub</a>
+          </div>
         </div>
+      </section>
+
+      <section class="section section--tight">
+        <div class="container">
+          <div class="contact-grid">
+            <aside class="contact-panel contact-panel--info reveal">
+              <div class="contact-tile">
+                <h4>Availability</h4>
+                <p>Open to internships and junior front end or software engineering opportunities.</p>
+              </div>
+              <div class="contact-tile">
+                <h4>Location</h4>
+                <p>Mankato, MN, with a remote friendly workflow and strong communication habits.</p>
+              </div>
+              <div class="contact-tile">
+                <h4>Best use of this form</h4>
+                <p>Use it for interview invitations, project collaboration, or a direct role conversation.</p>
+              </div>
+              <div class="contact-tile">
+                <h4>Response</h4>
+                <p>I usually reply within 24 hours.</p>
+              </div>
+            </aside>
+
+            <section class="contact-panel reveal" aria-labelledby="contact-form-title">
+              <p class="eyebrow">Send a message</p>
+              <h2 id="contact-form-title" class="contact-title contact-title--display">The cleanest way to reach me.</h2>
+              <p class="contact-copy">Fill out the form and I’ll get back to you directly. The experience is kept short on purpose so it works well on mobile, too.</p>
+              <form class="contact-form" id="contactForm" action="https://formspree.io/f/myzgeyzj" method="POST">
+                <div class="field-grid">
+                  <div class="field">
+                    <label for="name">Full name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+                  </div>
+                  <div class="field">
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" autocomplete="email" placeholder="name@example.com" required />
+                  </div>
+                </div>
+                <div class="field-grid">
+                  <div class="field">
+                    <label for="phone">Phone number</label>
+                    <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Optional" />
+                  </div>
+                  <div class="field">
+                    <label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" placeholder="Internship, collaboration, etc." required />
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Tell me what you're building or what role you have in mind." required></textarea>
+                </div>
+                <button class="button magnetic" type="submit">Send message <i class="bi bi-arrow-right"></i></button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-panel reveal">
+            <div>
+              <p class="eyebrow">Also useful</p>
+              <h2>Prefer a faster route? Email and LinkedIn are both checked regularly.</h2>
+            </div>
+            <div class="button-row">
+              <a class="button button--ghost magnetic" href="mailto:nahom.kidane@mnsu.edu">Email me</a>
+              <a class="button magnetic" href="https://www.linkedin.com/in/nahom-kidane" target="_blank" rel="noreferrer">Open LinkedIn <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-shell">
+        <p class="footer-copy">&copy; <span data-current-year>2026</span> Nahom Kidane. Built for clear communication and easy follow up.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="projects.html">Projects</a>
+        </div>
+      </div>
     </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+  </div>
+
+  <script src="js/scripts.js"></script>
 </body>
 </html>
